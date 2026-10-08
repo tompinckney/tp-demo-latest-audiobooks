@@ -26,8 +26,9 @@ logs/
 *.sw?
 
 # Environment files
-.env.local
-.env.*.local
+.env
+.env.*
+!.env.example
 
 # OS-specific files
 .DS_Store
